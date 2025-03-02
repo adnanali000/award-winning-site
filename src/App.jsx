@@ -1,8 +1,9 @@
+import Hero from "./components/Hero";
 function App() {
   return (
-   <div className="text-5xl text-violet-300 font-bold">
-    App
-   </div>
+   <main className="relative min-h-screen w-screen overflow-x-hidden">
+    <Hero />
+   </main>
   );
 }
 
